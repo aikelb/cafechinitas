@@ -1,0 +1,12 @@
+---
+import { Picture } from "astro:assets";
+import heroImage from "assets/hero-bar.jpg";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon";
+---
+
+<main class="bg-cover mb-8 bg-center bg-no-repeat w-full h-[350px] md:h-[650px]" style={`background-image: url(${heroImage.src});`}>
+  <div class="w-full h-full bg-slate-950/75 flex justify-center items-center">
+    <h1 class="text-5xl text-white self-center"> Café Chinitas </h1>
+  </div>
+</main>
