@@ -3,10 +3,18 @@ import { Picture } from "astro:assets";
 import heroImage from "assets/hero-bar.jpg";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
+import logo from "assets/logo-chinitas.svg";
 ---
 
 <main class="bg-cover mb-8 bg-center bg-no-repeat w-full h-[350px] md:h-[650px]" style={`background-image: url(${heroImage.src});`}>
-  <div class="w-full h-full bg-slate-950/75 flex justify-center items-center">
-    <h1 class="text-5xl text-white self-center"> Café Chinitas </h1>
+  <div class="w-full h-full bg-gradient-to-t from-black/65 via-transparent to-black/65 flex justify-center items-center">
+    <Picture
+      src={logo}
+      alt="Logo café chinitas"
+      sizes="(max-width: 400px) 100vw, 400px"
+      width={400}
+      height={400}
+      class="object-cover object-center aspect-square"
+    />
   </div>
 </main>
