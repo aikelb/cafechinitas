@@ -7,32 +7,22 @@ import logo from "assets/chinitas.svg";
 
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
-    children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
-    ],
+    title: "Inicio",
+    path: "/",
   },
   {
-    title: "Pricing",
-    path: "/pricing",
-  },
-  {
-    title: "About",
+    title: "Sobre nosotros",
     path: "/about",
   },
   {
-    title: "Contact",
+    title: "Contacto",
     path: "/contact",
   }
   ];
 ---
 
 <Container>
-  <header class="absolute w-full h-[150px] left-0 mx-0 px-24 bg-transparent flex flex-col lg:flex-row justify-between items-center my-5">
+  <header class="fixed w-full h-[120px] left-0 mx-0 px-24 bg-gradient-to-t from-transparent to-black/35 flex flex-col lg:flex-row justify-between items-center">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg">
@@ -40,7 +30,7 @@ const menuitems = [
             src={logo}
             alt="Logo café chinitas"
             sizes="(max-width: 200px) 100vw, 100px"
-            width={200}
+            width={203}
             height={200}
             class="object-cover object-center"
           />
