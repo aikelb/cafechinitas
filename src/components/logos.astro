@@ -1,10 +1,65 @@
 ---
 // @ts-ignore
 import { Icon } from "astro-icon";
+
+const reviews = [
+  {
+    name: "Sergi Franco",
+    body: `Bar de tapas de toda la vida en pleno corazón del barrio de Van Dyck. Las raciones están muy bien y disponen de variedad. Lugar concurrido los fines de semana aunque siempre hay un hueco en la barra. Si vuelvo a la ciudad, repetiré.`,
+    stars: [1,1,1,1],
+    url: "https://g.co/kgs/57tt3xj",
+  },
+  {
+    name: "Inma Jm",
+    body: "Pinchos muy ricos, de calidad.Las raciones muy buenas, en especial los calamares.",
+    stars: [1,1,1,1,1],
+    url: "https://g.co/kgs/3A13KT4"
+  },
+  {
+    name: "Guille Morera",
+    body: "El trato excelente como siempre. La comida es para degustarla y repetirla. Ambientazo los findes, id a buena hora que se llena y los pinchos y medias vuelan!",
+    stars: [1,1,1,1,1],
+    url: "https://g.co/kgs/i4XfGyk",
+  },
+]
 ---
 
 <div class="mt-24">
-  <h2 class="text-center text-slate-500">Works with your technologies</h2>
+  <h2 class="font-black text-black text-center text-3xl leading-none uppercase max-w-2xl mx-auto mb-12">Lo que dicen de nosotros</h2>
+  <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
+  {
+    reviews.map((item, index) => (
+      <>
+      <div class="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
+        <p class="font-bold uppercase">{item.name}</p>
+        <p class="text-xl font-light italic text-gray-700">{item.body}</p>
+        <div class="flex items-center justify-center space-x-2 mt-4">
+
+        {item.stars ? (
+          item.stars.map((star, _) => (
+          star === 1 ? (
+            <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+              fill="currentColor" stroke="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+              </path>
+            </svg>
+          ):
+            <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+              fill="currentColor" stroke="currentColor">
+              <path
+                d="m 9.049 2.927 c 0.3 -0.921 0.951 -0.927 0.951 0.073 c 0 4 0 3 0 6 l 0 5 a 1 1 0 0 0 -0.609 0.028 l -2.8 2.034 c -0.784 0.57 -1.838 -0.197 -1.539 -1.118 l 1.07 -3.292 a 1 1 0 0 0 -0.364 -1.118 l -2.778 -1.814 c -0.783 -0.57 -0.38 -1.81 0.588 -1.81 h 3.461 a 1 1 0 0 0 0.951 -0.69 l 1.07 -3.292 z">
+              </path>
+            </svg>
+          ))
+        ) : null}
+
+        </div>
+      </div>
+      </>
+    ))
+  }
+  </div>
   <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
     <Icon class="h-8 md:h-12" name="simple-icons:react" />
     <Icon class="h-8 md:h-12" name="simple-icons:svelte" />
