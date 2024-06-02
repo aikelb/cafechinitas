@@ -1,13 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g transform="matrix(3.71609,0,0,2.56821,1.29245,0.598792)">
+        <rect x="-0.348" y="-0.233" width="9.685" height="14.018" style="fill:rgb(235,235,235);"/>
+    </g>
+    <g transform="matrix(0.16653,0,0,0.16653,2.84541,32.4146)">
+        <g id="CHINITAS">
+            <g>
+                <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:44.275px;stroke:black;stroke-width:2px;">C</text>
+                <g>
+                    <g transform="matrix(1,0,0,1,28.31,0)">
+                        <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:36.225px;stroke:black;stroke-width:2px;">H</text>
+                    </g>
+                    <g transform="matrix(1,0,0,1,54.803,0)">
+                        <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:36.225px;stroke:black;stroke-width:2px;">INITA</text>
+                    </g>
+                </g>
+                <g transform="matrix(1,0,0,1,162.706,0)">
+                    <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:44.275px;stroke:black;stroke-width:2px;">S</text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Rectngulo-redondeado" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M74,235C74,235.552 74.448,236 75,236L86,236C86.552,236 87,235.552 87,235C87,234.448 86.552,234 86,234L75,234C74.448,234 74,234.448 74,235Z"/>
+    </g>
+    <g id="Rectngulo-redondeado-copia" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M203,235C203,235.552 203.448,236 204,236L215,236C215.552,236 216,235.552 216,235C216,234.448 215.552,234 215,234L204,234C203.448,234 203,234.448 203,235Z"/>
+    </g>
+    <g id="C" transform="matrix(0.16653,0,0,0.16653,1.39311,22.9223)">
+        <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:120px;stroke:black;stroke-width:3px;">C</text>
+    </g>
+    <g id="S" transform="matrix(0.16653,0,0,0.16653,24.5608,22.9223)">
+        <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:120px;stroke:black;stroke-width:3px;">S</text>
+    </g>
+    <g id="CAFE" transform="matrix(0.16653,0,0,0.16653,1.59461,7.43503)">
+        <g>
+            <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:13px;stroke:black;stroke-width:1px;">C</text>
+            <g transform="matrix(1,0,0,1,8.159,0)">
+                <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:13px;stroke:black;stroke-width:1px;">AFE</text>
+            </g>
+        </g>
+    </g>
+    <g id="BAR" transform="matrix(0.16653,0,0,0.16653,28.5919,7.43503)">
+        <g>
+            <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:13px;stroke:black;stroke-width:1px;">B</text>
+            <g transform="matrix(1,0,0,1,8.835,0)">
+                <text x="0px" y="0px" style="font-family:'BiauKaiHK-Regular', 'BiauKaiHK', cursive;font-size:13px;stroke:black;stroke-width:1px;">AR</text>
+            </g>
+        </g>
+    </g>
+    <g id="Elipse" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M184,78C184,76.343 182.657,75 181,75C179.343,75 178,76.343 178,78C178,79.657 179.343,81 181,81C182.657,81 184,79.657 184,78Z"/>
+    </g>
+    <g id="Elipse-copia" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M116,78C116,76.343 114.657,75 113,75C111.343,75 110,76.343 110,78C110,79.657 111.343,81 113,81C114.657,81 116,79.657 116,78Z"/>
+    </g>
+    <g id="Trazado" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M136.545,165.682C136.553,170.316 136.545,182.045 136.545,182.045L130,182.045L130,156.955L142,156.955M136.545,165.682C138.727,165.682 142,162.409 142,156.955"/>
+    </g>
+    <g id="Trazado-copia-4" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M131,136L131,123C131,123 133,120 136,120C139,120 141,123 141,123L141,136L131,136Z"/>
+    </g>
+    <g id="path1" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M134,152L139,152L139,149L137,147L136,147L134,149L134,152Z"/>
+    </g>
+    <g id="path2" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M130,87L130,107L141,107L141,87L139,86L137,87L137,103L134,103L134,87C134,87 132.307,86 132,86C131.641,86 130,87 130,87Z"/>
+    </g>
+    <g id="Trazado-copia-3" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M155.455,165.682C155.447,170.316 155.455,182.045 155.455,182.045L162,182.045L162,156.955L150,156.955M155.455,165.682C153.273,165.682 150,162.409 150,156.955"/>
+    </g>
+    <g id="path3" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M151,136L151,123C151,123 153,120 156,120C159,120 161,123 161,123L161,136L151,136Z"/>
+    </g>
+    <g id="Trazado-copia-2" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M154,152L159,152L159,149L157,147L156,147L154,149L154,152Z"/>
+    </g>
+    <g id="Trazado-copia" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M153,87L153,107L164,107L164,87L162,86L160,87L160,103L157,103L157,87C157,87 155.307,86 155,86C154.641,86 153,87 153,87Z"/>
+    </g>
+    <g id="path4" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M142,69L138,69L138,62L145,56L147,56L154,62L154,69L150,69L150,63L142,63L142,69Z"/>
+    </g>
+    <g id="path5" transform="matrix(0.16653,0,0,0.16653,-5.28808,-4.8882)">
+        <path d="M140,40L144,40L144,36L146,35L148,36L148,40L152,40L153,42L152,44L148,44L148,48L146,49L144,48L144,44L140,44L139,42L140,40Z"/>
+    </g>
 </svg>
