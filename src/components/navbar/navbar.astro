@@ -22,10 +22,11 @@ const menuitems = [
 ---
 
 <Container>
-  <header class="absolute w-full h-[150px] left-0 mx-0 px-24 bg-gradient-to-b from-black to-transparent flex flex-col lg:flex-row justify-between items-center mb-5">
+  <header class="absolute w-full h-[150px] top-0 left-0 mx-0 px-24 flex flex-col lg:flex-row justify-between items-center mb-5">
     <Astronav>
-      <div class="flex w-full lg:w-auto place-items-center justify-between min-h-[65px]">
-        <a href="/" class="text-lg hidden md:block">
+      <div class="flex w-full lg:w-auto place-items-center justify-between min-h-[150px]">
+        <a href="/" class="text-lg">
+          <div class="absolute pointer-events-none w-full h-full left-0 top-0 bg-gradient-to-b from-black/70 to-transparent" />
           <Picture
             src={logo}
             alt="Logo café chinitas"
@@ -39,7 +40,7 @@ const menuitems = [
           <MenuIcon class="w-4 h-4 text-white" />
         </div>
       </div>
-      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+      <MenuItems class="hidden w-full p-4 rounded-lg lg:w-auto mt-2 lg:flex lg:mt-0 z-10 bg-black/80">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
             menuitems.map((item, index) => (

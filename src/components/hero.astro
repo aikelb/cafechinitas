@@ -6,7 +6,7 @@ import { Icon } from "astro-icon";
 import logo from "assets/logo-chinitas.svg";
 ---
 
-<main class="bg-cover mb-8 bg-center bg-no-repeat w-full h-[350px] md:h-[650px]" style={`background-image: url(${heroImage.src});`}>
+<main class="bg-cover mb-8 bg-center bg-no-repeat w-full h-[350px] md:h-[650px] pointer-events-none" style={`background-image: url(${heroImage.src});`}>
   <div class="w-full h-full bg-gradient-to-t from-black/65 via-transparent to-black/65 flex justify-center items-center">
     <Picture
       src={logo}
@@ -14,7 +14,7 @@ import logo from "assets/logo-chinitas.svg";
       sizes="(max-width: 400px) 100vw, 400px"
       width={400}
       height={400}
-      class="pt-6 md:pt-0 md:object-cover object-center aspect-square h-[300px] md:h-[400px]"
+      class="pt-16 md:pt-0 md:object-cover object-center aspect-square h-[250px] sm:h-[300px] md:h-[400px]"
     />
   </div>
 </main>
