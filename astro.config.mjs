@@ -7,4 +7,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://cafechinitas.com",
   integrations: [tailwind(), mdx(), sitemap()],
+  output: 'static',
+  base: 'site_cafechinitas',
 });
