@@ -5,8 +5,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://cafechinitas.com",
+  site: "https://aikelb.github.io",
+  base: "cafechinitas"
   integrations: [tailwind(), mdx(), sitemap()],
-  output: 'static',
-  base: 'site_cafechinitas',
+  output: 'static'
 });
